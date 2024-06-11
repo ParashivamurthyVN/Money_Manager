@@ -14,8 +14,8 @@ function Table(props){
        }
 
     return(
-        <div className='table'>  
-        <table>
+        <div >  
+        <table className='table'>
           <thead>
             <tr>
               <th>Account</th>

@@ -113,7 +113,8 @@ td {
 }
 
 .radio-inputs .radio input:checked + .name {
-  background-color: #fff;
+  color: #fff;
+  background-color: royalblue;
   font-weight: 600;
 }
 
@@ -144,7 +145,7 @@ td {
   justify-content: center;
   align-items: center;
   border: none;
-   outline: 3px #29323c solid;
+   outline: 3px royalblue solid;
   outline-offset: -3px;
   border-radius: 7px;
   margin: 10px;
@@ -159,7 +160,7 @@ td {
   justify-content: center;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
-  color: #616161;
+  color: royalblue;
   background-color: white ;
 }
 
@@ -172,7 +173,8 @@ td {
   justify-content: center;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
+background-color: royalblue;
   color: white;
 }
 
@@ -333,3 +335,35 @@ td {
 
 /* table  */
 
+.table{
+  border-collapse: collapse !important;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead tr{
+  background-color: royalblue;
+  color: #fff;
+  /* text-align: left; */
+  font-weight: bold;
+}
+
+.table th, .table td{
+  padding: 12px 15px;
+}
+
+.table tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type{
+  border-bottom: 2px solid royalblue;
+}
